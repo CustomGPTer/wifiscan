@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WiFi Scan: WiFi analyser, speed test and network scanner, free with no adverts</title>
+<meta name="description" content="WiFi Scan is a free Android WiFi analyser: speed test, signal and channel ratings, every device on your WiFi, a router security check, heatmaps, scheduled tests with alerts and PDF reports. It tells you why your WiFi is slow and how to fix it. No adverts, no account.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/wifiscan/">
+<meta name="theme-color" content="#f2f6fc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#060a17" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WiFi Scan">
+<meta property="og:title" content="WiFi Scan: WiFi analyser, speed test and network scanner, free with no adverts">
+<meta property="og:description" content="WiFi Scan is a free Android WiFi analyser: speed test, signal and channel ratings, every device on your WiFi, a router security check, heatmaps, scheduled tests with alerts and PDF reports. It tells you why your WiFi is slow and how to fix it. No adverts, no account.">
+<meta property="og:url" content="https://customgpter.github.io/wifiscan/">
+<meta property="og:image" content="https://customgpter.github.io/wifiscan/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="WiFi Scan&#x27;s home screen: a network health score of 89 with signal, speed, delay, channel and security bars">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"WiFi Scan","url":"https://customgpter.github.io/wifiscan/","description":"WiFi Scan is a free Android WiFi analyser: speed test, signal and channel ratings, every device on your WiFi, a router security check, heatmaps, scheduled tests with alerts and PDF reports. It tells you why your WiFi is slow and how to fix it. No adverts, no account.","applicationCategory":"UtilitiesApplication","operatingSystem":"Android 8 or later","softwareVersion":"1.0.0","downloadUrl":"https://github.com/CustomGPTer/wifiscan/releases/latest/download/WiFiScan.apk","releaseNotes":"https://customgpter.github.io/wifiscan/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/wifiscan/assets/og.png","featureList":["A proper speed test","Your package, checked","Live signal","Mobile data too","Channel ratings","Devices on your WiFi","Security check","Toolbox","Floor plan heatmaps","Camera walk","Saved places","Scheduled tests"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is WiFi Scan really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked."}},{"@type":"Question","name":"Is it on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. WiFi Scan is a personal project and is downloaded from this site as an Android app file. It needs Android 8 or later."}},{"@type":"Question","name":"Why does it need my location?","acceptedAnswer":{"@type":"Answer","text":"Android only lets apps see WiFi names and nearby networks when location permission is granted. WiFi Scan never reads, stores or sends your location."}},{"@type":"Question","name":"Which speed test servers does it use?","acceptedAnswer":{"@type":"Answer","text":"Cloudflare's speed test by default, which keeps your results private. You can choose M-Lab instead; M-Lab publishes every test as open research data, including your IP address, so the app asks you first."}},{"@type":"Question","name":"How much data does a speed test use?","acceptedAnswer":{"@type":"Answer","text":"Usually 50 to 400 MB depending on your speed. Scheduled tests are shorter, and can be set to run on WiFi only so they never use your mobile allowance."}},{"@type":"Question","name":"Why does live scanning only update every 30 seconds?","acceptedAnswer":{"@type":"Answer","text":"Android limits apps to four WiFi scans every two minutes. WiFi Scan shows you how to switch that limit off in Developer options, after which it scans every five seconds."}},{"@type":"Question","name":"Can it scan other people's networks or devices?","acceptedAnswer":{"@type":"Answer","text":"No. The device list and port scanner only work on the network you are connected to, and the port scanner refuses internet addresses. Use them on your own network, or one you have permission to test."}},{"@type":"Question","name":"Can it change my router settings?","acceptedAnswer":{"@type":"Answer","text":"No. It tells you what to change and gives step-by-step guides for BT, EE, Plusnet, Sky, Virgin Media, TalkTalk and Vodafone hubs, with a button to open your router's page."}},{"@type":"Question","name":"Does the camera walk record video?","acceptedAnswer":{"@type":"Answer","text":"No. The camera is only used to track where you are as you walk. Nothing it sees is saved or sent."}},{"@type":"Question","name":"Does it work on an iPhone?","acceptedAnswer":{"@type":"Answer","text":"No. WiFi Scan is for Android phones and tablets only."}},{"@type":"Question","name":"Who made it?","acceptedAnswer":{"@type":"Answer","text":"WiFi Scan is made by Jonathan Jackson, an independent developer in the United Kingdom."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="WiFi Scan home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><radialGradient id="wsa" gradientUnits="userSpaceOnUse" cx="54" cy="44" r="80"><stop offset="0" stop-color="#13285A"/><stop offset="1" stop-color="#050916"/></radialGradient><linearGradient id="wsb" gradientUnits="userSpaceOnUse" x1="24" y1="40" x2="84" y2="40"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#wsa)"/><circle cx="54" cy="54" r="34" fill="#fff" fill-opacity=".08"/><g fill="none" stroke="url(#wsb)" stroke-width="6.2" stroke-linecap="round"><path d="M46.93 62.93A10 10 0 0 1 61.07 62.93"/><path d="M39.86 55.86A20 20 0 0 1 68.14 55.86"/><path d="M32.79 48.79A30 30 0 0 1 75.21 48.79"/></g><circle cx="54" cy="70" r="4.6" fill="#fff"/><circle cx="32.79" cy="48.79" r="2.2" fill="#67E8F9"/><circle cx="75.21" cy="48.79" r="2.2" fill="#93C5FD"/></svg><span>WiFi Scan</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="./#download"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
+</div>
+</header>
+<main id="main">
+<div class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<h1>Find out why your WiFi is slow, then fix it.</h1>
+<p class="lede">WiFi Scan tests your speed, rates your signal and every channel around you, finds every device on your WiFi and checks your router for weak spots. Then it puts it into plain words: what is slowing you down, biggest first, and exactly what to change.</p><p class="lede">Map the signal around your home, test automatically while the app is closed, get an alert when the internet drops or slows, and send your provider a PDF report as proof.</p>
+
+<div class="gate-scope"><div class="law-box" data-gate><label><input type="checkbox"> I understand and will use this app within the law</label><p>WiFi Scan includes a port scanner and other network tools. <a href="terms.html#law">What the law says</a></p><noscript><p>Turn on JavaScript to tick the box and download.</p></noscript></div><p class="get" id="download"><a class="button" data-href="https://github.com/CustomGPTer/wifiscan/releases/latest/download/WiFiScan.apk" aria-disabled="true" role="link" tabindex="-1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a><a class="aside" href="#install">How to install</a></p></div>
+<ul class="pills"><li>Version 1.0.0</li><li>Android 8 or later</li><li>3.5 MB</li></ul>
+<p class="facts">Free, with nothing to unlock. No adverts, no account with the developer, no tracking. <a href="compare.html">Compare</a> or read the <a href="releases.html">release notes</a>.</p>
+<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
+</div>
+<div class="hero-phone"><div class="phone"><img src="./assets/screens/home.png" alt="Home: a network health score with the five things that make it up, the path from your provider to your phone, and your last test." width="393" height="852" fetchpriority="high"></div></div>
+</div>
+</div>
+
+<section class="promises" aria-label="In short">
+<div class="wrap"><ul><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No adverts</b><span>None in the app and none on this site.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>Nothing to buy</b><span>Every feature is free, with nothing locked.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No account</b><span>Nothing to sign up for.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>Stays on your phone</b><span>Your tests, devices and maps never leave it.</span></span></li></ul></div>
+</section>
+
+<section id="screens" aria-labelledby="screens-h">
+<div class="wrap">
+<h2 id="screens-h">A look inside</h2>
+<p class="intro">These are the real screens, drawn from the app&#x27;s own code with made-up networks and results. Swipe or scroll sideways to see them all.</p>
+<div class="gallery" tabindex="0" role="region" aria-label="Screens from WiFi Scan"><figure class="shot"><div class="phone"><img src="./assets/screens/home.png" alt="Home: a network health score with the five things that make it up, the path from your provider to your phone, and your last test." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Home: a network health score with the five things that make it up, the path from your provider to your phone, and your last test.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/speed.png" alt="A speed test result: download, upload, delay while idle and while busy, packet loss and a lag grade from A+ to F." width="393" height="852" loading="eager" decoding="async"></div><figcaption>A speed test result: download, upload, delay while idle and while busy, packet loss and a lag grade from A+ to F.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/scan.png" alt="Every WiFi network around you on a live channel chart, with a rating for each channel and the best one for your router." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Every WiFi network around you on a live channel chart, with a rating for each channel and the best one for your router.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/devices.png" alt="Every device on your WiFi, with names, makers and types, and a warning when a new one joins." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Every device on your WiFi, with names, makers and types, and a warning when a new one joins.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/slow.png" alt="Why is my WiFi slow? Seven checks in about 30 seconds, then the problems ranked, biggest first, with the fix for each." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Why is my WiFi slow? Seven checks in about 30 seconds, then the problems ranked, biggest first, with the fix for each.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/audit.png" alt="The security check: a score out of 100 and plain advice on WPS, UPnP, open router services, DNS and look-alike networks." width="393" height="852" loading="eager" decoding="async"></div><figcaption>The security check: a score out of 100 and plain advice on WPS, UPnP, open router services, DNS and look-alike networks.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/heatmap.png" alt="A heatmap from a camera walk: the signal in every part of your home, with the weak spots in orange." width="393" height="852" loading="eager" decoding="async"></div><figcaption>A heatmap from a camera walk: the signal in every part of your home, with the weak spots in orange.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/monitor.png" alt="Scheduled tests and alerts: slow speed, high delay, outages and new devices, with a log of everything." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Scheduled tests and alerts: slow speed, high delay, outages and new devices, with a log of everything.</figcaption></figure></div>
+</div>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+<div class="wrap">
+<h2 id="how-h">How it works</h2>
+<p class="intro">WiFi Scan reads what your phone already knows about your WiFi, listens to the networks around you, and runs real tests against Cloudflare's speed test servers.</p>
+<ol class="steps"><li><h3>Open it</h3><p>Your network health score appears straight away: signal, speed, delay, channel and security, each with a bar and advice.</p></li><li><h3>Test it</h3><p>Run a speed test, scan the channels and find the devices on your network. Or tap Why is my WiFi slow? and let it check everything at once.</p></li><li><h3>Fix it</h3><p>Follow the steps for your router, from BT, EE, Plusnet, Sky, Virgin Media, TalkTalk and Vodafone hubs to any other, then test again to see the difference.</p></li></ol>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">Everything is in, and all of it is free</h2>
+<p class="intro">Nothing below is held back for a paid tier, because there is no paid tier.</p>
+<div class="groups"><div class="group"><h3>Speed and signal</h3><dl><div><dt>A proper speed test</dt><dd>Download, upload, delay, jitter, packet loss and the delay while the line is busy, with a lag grade. Private Cloudflare servers by default; M-Lab if you want an open-data test.</dd></div><div><dt>Your package, checked</dt><dd>Enter what you pay for and every test shows the percentage you are getting.</dd></div><div><dt>Live signal</dt><dd>Signal, link speed, WiFi generation and live graphs, plus a Signal Finder that beeps faster as you walk towards the best spot.</dd></div><div><dt>Mobile data too</dt><dd>4G and 5G signal readings, and a mobile speed test even while you are on WiFi.</dd></div></dl></div><div class="group"><h3>Your network</h3><dl><div><dt>Channel ratings</dt><dd>Every channel on 2.4, 5 and 6 GHz rated from crowded to excellent, with your own router left out, and the best channel to switch to.</dd></div><div><dt>Devices on your WiFi</dt><dd>Names and models from the router, Windows, Bonjour and UPnP, with your own labels, trusted devices and new-device alerts.</dd></div><div><dt>Security check</dt><dd>WiFi encryption, WPS, risky router services, UPnP, DNS hijacking, look-alike networks and more, scored out of 100 with fixes.</dd></div><div><dt>Toolbox</dt><dd>Ping, traceroute, DNS lookup and DNS speed test, port scanner for your own devices, Wake-on-LAN, whois, IP calculator and MTU test.</dd></div></dl></div><div class="group"><h3>Find the dead spots</h3><dl><div><dt>Floor plan heatmaps</dt><dd>Use a photo of your floor plan or a blank grid, tap where you stand, and watch the map fill in.</dd></div><div><dt>Camera walk</dt><dd>Walk around holding your phone and it maps the signal as you go, using the camera to track where you are.</dd></div><div><dt>Saved places</dt><dd>Save home, work and family's, and compare their speed, delay and heatmaps side by side.</dd></div></dl></div><div class="group"><h3>Keeps watch</h3><dl><div><dt>Scheduled tests</dt><dd>Every hour to once a day, WiFi only if you like, while the app is closed.</dd></div><div><dt>Alerts</dt><dd>A notification when your speed falls below your level, the delay climbs, the internet goes down or a new device joins.</dd></div><div><dt>Reports and backup</dt><dd>PDF reports and CSV spreadsheets for your provider, and a backup locked with your own password.</dd></div><div><dt>Widgets and tile</dt><dd>Your signal and last test on the home screen, and a one-tap speed test in Quick Settings.</dd></div></dl></div></div>
+</div>
+</section>
+
+<section id="privacy" aria-labelledby="privacy-h">
+<div class="wrap">
+<h2 id="privacy-h">Private by design</h2>
+<ul class="plain"><li><h3>No servers of our own</h3><p>There is no account and no server. Everything WiFi Scan keeps stays on your phone.</p></li><li><h3>No ads, no tracking</h3><p>There is no advertising, analytics or tracking, in the app or on this site.</p></li><li><h3>Only what you start</h3><p>WiFi Scan goes online for the tests and tools you run, and for scheduled tests if you turn them on.</p></li></ul>
+</div>
+</section>
+
+<section id="law" aria-labelledby="law-h" class="law-band">
+<div class="wrap">
+<h2 id="law-h">Use it within the law</h2>
+<p class="intro">WiFi Scan is for checking and improving your own network. Its port scanner and device tools only work on home and office networks, and must only be pointed at equipment you own or have permission to test. Seeing a network in the list does not give you permission to join it.</p>
+<ul class="ticks"><li><b>Computer Misuse Act 1990.</b> Accessing, or trying to access, a computer, router or other device without permission is an offence under section 1, and doing anything to impair how it works is an offence under section 3. Only scan or test devices you own or have permission to test.</li><li><b>Communications Act 2003.</b> Using someone else's internet connection without permission, for example by joining their WiFi, is an offence under section 125.</li><li><b>UK GDPR and the Data Protection Act 2018.</b> Device names on a shared network can identify the people who use them. Do not record or share details of other people's devices.</li></ul>
+<p class="after-table">Laws differ in other countries. If you are not in the UK, the rules where you are apply. Read the <a href="terms.html#law">terms of use</a>.</p>
+</div>
+</section>
+<section id="install" aria-labelledby="install-h">
+<div class="wrap">
+<h2 id="install-h">Installing and updating</h2>
+<p class="intro">WiFi Scan is not on Google Play, so your phone asks a couple of extra questions the first time.</p>
+<ol class="steps"><li><h3>Download the app file</h3><p>Tap Download on your phone. The file is called WiFiScan.apk and is about 3.5 MB. If Chrome says the file might be harmful, choose Download anyway. First tick the box to say you will use the app within the law.</p></li><li><h3>Allow the install</h3><p>Open the file. The first time, Android asks you to allow your browser to install apps. Allow it, go back and tap Install. If Google Play Protect steps in, choose More details, then Install anyway.</p></li><li><h3>Updating later</h3><p>WiFi Scan does not update itself. In Settings or About, Check for updates opens the release notes page in your browser. Install the new file over the old one and your history, devices, places, heatmaps and settings are kept.</p></li></ol>
+<p class="after-table">Version 1.0.0, released 23 November 2026. See the <a href="releases.html">release notes</a>, or <a href="releases.html#checking">check your download</a>.</p>
+</div>
+</section>
+
+<section id="questions" aria-labelledby="questions-h">
+<div class="wrap">
+<h2 id="questions-h">Questions</h2>
+<div class="faq"><details><summary>Is WiFi Scan really free?</summary><p>Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked.</p></details><details><summary>Is it on Google Play?</summary><p>No. WiFi Scan is a personal project and is downloaded from this site as an Android app file. It needs Android 8 or later.</p></details><details><summary>Why does it need my location?</summary><p>Android only lets apps see WiFi names and nearby networks when location permission is granted. WiFi Scan never reads, stores or sends your location.</p></details><details><summary>Which speed test servers does it use?</summary><p>Cloudflare's speed test by default, which keeps your results private. You can choose M-Lab instead; M-Lab publishes every test as open research data, including your IP address, so the app asks you first.</p></details><details><summary>How much data does a speed test use?</summary><p>Usually 50 to 400 MB depending on your speed. Scheduled tests are shorter, and can be set to run on WiFi only so they never use your mobile allowance.</p></details><details><summary>Why does live scanning only update every 30 seconds?</summary><p>Android limits apps to four WiFi scans every two minutes. WiFi Scan shows you how to switch that limit off in Developer options, after which it scans every five seconds.</p></details><details><summary>Can it scan other people&#x27;s networks or devices?</summary><p>No. The device list and port scanner only work on the network you are connected to, and the port scanner refuses internet addresses. Use them on your own network, or one you have permission to test.</p></details><details><summary>Can it change my router settings?</summary><p>No. It tells you what to change and gives step-by-step guides for BT, EE, Plusnet, Sky, Virgin Media, TalkTalk and Vodafone hubs, with a button to open your router's page.</p></details><details><summary>Does the camera walk record video?</summary><p>No. The camera is only used to track where you are as you walk. Nothing it sees is saved or sent.</p></details><details><summary>Does it work on an iPhone?</summary><p>No. WiFi Scan is for Android phones and tablets only.</p></details><details><summary>Who made it?</summary><p>WiFi Scan is made by Jonathan Jackson, an independent developer in the United Kingdom.</p></details></div>
+</div>
+</section>
+
+<section class="closing" aria-labelledby="closing-h">
+<div class="wrap">
+<div><h2 id="closing-h">Get the speed you pay for</h2><p>Free, with no adverts and nothing to unlock. Made by the developer of several other free Android apps: <a href="more-apps.html">see them all</a>.</p></div>
+<a class="button" href="./#download"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a>
+</div>
+</section>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<a class="brand" href="./" aria-label="WiFi Scan home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><radialGradient id="wsa" gradientUnits="userSpaceOnUse" cx="54" cy="44" r="80"><stop offset="0" stop-color="#13285A"/><stop offset="1" stop-color="#050916"/></radialGradient><linearGradient id="wsb" gradientUnits="userSpaceOnUse" x1="24" y1="40" x2="84" y2="40"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#wsa)"/><circle cx="54" cy="54" r="34" fill="#fff" fill-opacity=".08"/><g fill="none" stroke="url(#wsb)" stroke-width="6.2" stroke-linecap="round"><path d="M46.93 62.93A10 10 0 0 1 61.07 62.93"/><path d="M39.86 55.86A20 20 0 0 1 68.14 55.86"/><path d="M32.79 48.79A30 30 0 0 1 75.21 48.79"/></g><circle cx="54" cy="70" r="4.6" fill="#fff"/><circle cx="32.79" cy="48.79" r="2.2" fill="#67E8F9"/><circle cx="75.21" cy="48.79" r="2.2" fill="#93C5FD"/></svg><span>WiFi Scan</span></a>
+<p>&copy; 2026 Jonathan Jackson. WiFi Scan is an independent app.</p>
+<p>This site uses no cookies and no tracking. The only script on it unlocks the download once the lawful-use box is ticked.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
+</div>
+<nav aria-label="The app"><h2>The app</h2><ul>
+<li><a href="./">Home</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
+<li><a href="https://github.com/CustomGPTer/wifiscan/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
