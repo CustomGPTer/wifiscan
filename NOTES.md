@@ -1,8 +1,6 @@
-WiFi Scan 1.0.0.
+WiFi Scan 1.0.1 ties the app into TorusApps.com.
 
-- First release: a WiFi and network analyser that tells you why your WiFi is slow and how to fix it.
-- Speed test with delay under load and a lag grade, live signal, channel ratings for 2.4, 5 and 6 GHz, and router guides for UK broadband hubs.
-- Devices on your WiFi, Bluetooth list, security check, Why is my WiFi slow?, floor-plan and camera-walk heatmaps.
-- Scheduled tests with alerts, PDF and CSV reports, saved places, widgets, a Quick Settings tile and encrypted backups.
+- Check for updates now reads the signed app list on torusapps.com, only when you tap it. When a newer version is out it says Update available, and the next tap opens the WiFi Scan page. Nothing downloads inside the app.
+- More apps, Website and the new Privacy policy and Email rows point to torusapps.com, with a Developed by Jonathan Jackson line.
 
-Android 8 or later. Use the port scanner and network tools only on your own network or one you have permission to test (Computer Misuse Act 1990). Check the file against SHA256SUMS before installing.
+Installs over the earlier version and keeps everything.
